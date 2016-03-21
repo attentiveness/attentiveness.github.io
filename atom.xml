@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Attentiveness</title>
+  <subtitle>Anyone Group</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://attentiveness.github.io/"/>
+  <updated>2016-03-21T05:17:40.000Z</updated>
+  <id>http://attentiveness.github.io/</id>
+  
+  <author>
+    <name>Attentiveness</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Reading</title>
+    <link href="http://attentiveness.github.io/2016/03/21/reading/"/>
+    <id>http://attentiveness.github.io/2016/03/21/reading/</id>
+    <published>2016-03-21T03:43:05.000Z</published>
+    <updated>2016-03-21T05:17:40.000Z</updated>
+    
+    <content type="html">&lt;p&gt;&lt;img src=&quot;http://7xr0xq.com1.z0.glb.clouddn.com/Reading_Logo.png&quot; alt=&quot;Reading_Logo&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://gitter.im/attentiveness/reading&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;&lt;img src=&quot;https://badges.gitter.im/attentiveness/reading.svg&quot; alt=&quot;Join the chat at https://gitter.im/attentiveness/reading&quot;&gt;&lt;/a&gt;&lt;br&gt;&lt;a href=&quot;https://raw.githubusercontent.com/attentiveness/reading/master/LICENSE&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;&lt;img src=&quot;https://img.shields.io/hexpm/l/plug.svg&quot; alt=&quot;License Apache2.0&quot;&gt;&lt;/a&gt;&lt;br&gt;&lt;a href=&quot;https://github.com/attentiveness/reading/stargazers&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;&lt;img src=&quot;https://img.shields.io/github/stars/attentiveness/reading.svg&quot; alt=&quot;GitHub stars&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Reading App Write In React-Native（Studying and Programing）&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Support: Android API 14(4.1)+    IOS(coming soon)&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;No Profit, No Advertisement, Only Feelings&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;Screenshot&quot;&gt;&lt;a href=&quot;#Screenshot&quot; class=&quot;headerlink&quot; title=&quot;Screenshot&quot;&gt;&lt;/a&gt;Screenshot&lt;/h2&gt;&lt;p&gt;&lt;img src=&quot;http://7xr0xq.com1.z0.glb.clouddn.com/Reading_Splash.jpg&quot; alt=&quot;Reading_Splash&quot;&gt; &lt;img src=&quot;http://7xr0xq.com1.z0.glb.clouddn.com/Reading_Main.jpg&quot; alt=&quot;Reading_Main&quot;&gt;&lt;br&gt;&lt;img src=&quot;http://7xr0xq.com1.z0.glb.clouddn.com/Reading_Drawer.jpg&quot; alt=&quot;Reading_Drawer&quot;&gt; &lt;img src=&quot;http://7xr0xq.com1.z0.glb.clouddn.com/Reading_Article.jpg&quot; alt=&quot;Reading_Article&quot;&gt;&lt;br&gt;&lt;img src=&quot;http://7xr0xq.com1.z0.glb.clouddn.com/Reading_Share.jpg&quot; alt=&quot;Reading_Share&quot;&gt; &lt;img src=&quot;http://7xr0xq.com1.z0.glb.clouddn.com/Reading_About.jpg&quot; alt=&quot;Reading_About&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;Download-From-Android-Market&quot;&gt;&lt;a href=&quot;#Download-From-Android-Market&quot; class=&quot;headerlink&quot; title=&quot;Download From Android Market&quot;&gt;&lt;/a&gt;Download From Android Market&lt;/h2&gt;&lt;p&gt;&lt;em&gt;From 360 Android Market:&lt;/em&gt; &lt;a href=&quot;http://zhushou.360.cn/detail/index/soft_id/3217938?recrefer=SE_D_Reading&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Download Reading&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;From Wandou Labs:&lt;/em&gt; &lt;a href=&quot;http://www.wandoujia.com/apps/com.reading&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Download Reading&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;Dependency&quot;&gt;&lt;a href=&quot;#Dependency&quot; class=&quot;headerlink&quot; title=&quot;Dependency&quot;&gt;&lt;/a&gt;Dependency&lt;/h2&gt;&lt;figure class=&quot;highlight xquery&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;12&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;string&quot;&gt;&quot;dependencies&quot;&lt;/span&gt;: &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;string&quot;&gt;&quot;avoscloud-sdk&quot;&lt;/span&gt;: &lt;span class=&quot;string&quot;&gt;&quot;^1.0.0-rc7&quot;&lt;/span&gt;,&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;string&quot;&gt;&quot;immutable&quot;&lt;/span&gt;: &lt;span class=&quot;string&quot;&gt;&quot;^3.7.5&quot;&lt;/span&gt;,&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;string&quot;&gt;&quot;react-native&quot;&lt;/span&gt;: &lt;span class=&quot;string&quot;&gt;&quot;^0.21.0&quot;&lt;/span&gt;,&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;string&quot;&gt;&quot;react-native-code-push&quot;&lt;/span&gt;: &lt;span class=&quot;string&quot;&gt;&quot;^1.7.3-beta&quot;&lt;/span&gt;,&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;string&quot;&gt;&quot;react-native-device-info&quot;&lt;/span&gt;: &lt;span class=&quot;string&quot;&gt;&quot;^0.8.4&quot;&lt;/span&gt;,&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;string&quot;&gt;&quot;react-native-scrollable-tab-view&quot;&lt;/span&gt;: &lt;span class=&quot;string&quot;&gt;&quot;^0.4.0&quot;&lt;/span&gt;,&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;string&quot;&gt;&quot;react-native-wechat&quot;&lt;/span&gt;: &lt;span class=&quot;string&quot;&gt;&quot;^1.3.2&quot;&lt;/span&gt;,&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;string&quot;&gt;&quot;react-redux&quot;&lt;/span&gt;: &lt;span class=&quot;string&quot;&gt;&quot;^4.4.1&quot;&lt;/span&gt;,&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;string&quot;&gt;&quot;redux&quot;&lt;/span&gt;: &lt;span class=&quot;string&quot;&gt;&quot;^3.3.1&quot;&lt;/span&gt;,&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;string&quot;&gt;&quot;redux-thunk&quot;&lt;/span&gt;: &lt;span class=&quot;string&quot;&gt;&quot;^2.0.1&quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h2 id=&quot;How-To-Build-And-Run&quot;&gt;&lt;a href=&quot;#How-To-Build-And-Run&quot; class=&quot;headerlink&quot; title=&quot;How To Build And Run&quot;&gt;&lt;/a&gt;How To Build And Run&lt;/h2&gt;&lt;h3 id=&quot;Step-One&quot;&gt;&lt;a href=&quot;#Step-One&quot; class=&quot;headerlink&quot; title=&quot;Step One&quot;&gt;&lt;/a&gt;Step One&lt;/h3&gt;&lt;figure class=&quot;highlight livescript&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;built_in&quot;&gt;npm&lt;/span&gt; install -g react-&lt;span class=&quot;keyword&quot;&gt;native&lt;/span&gt;-cli&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h3 id=&quot;Step-Two&quot;&gt;&lt;a href=&quot;#Step-Two&quot; class=&quot;headerlink&quot; title=&quot;Step Two&quot;&gt;&lt;/a&gt;Step Two&lt;/h3&gt;&lt;figure class=&quot;highlight cmake&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;npm &lt;span class=&quot;keyword&quot;&gt;install&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h3 id=&quot;Step-Three&quot;&gt;&lt;a href=&quot;#Step-Three&quot; class=&quot;headerlink&quot; title=&quot;Step Three&quot;&gt;&lt;/a&gt;Step Three&lt;/h3&gt;&lt;figure class=&quot;highlight actionscript&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;react-&lt;span class=&quot;keyword&quot;&gt;native&lt;/span&gt; start&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h3 id=&quot;Optional-Step&quot;&gt;&lt;a href=&quot;#Optional-Step&quot; class=&quot;headerlink&quot; title=&quot;Optional Step&quot;&gt;&lt;/a&gt;Optional Step&lt;/h3&gt;&lt;figure class=&quot;highlight arduino&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;npm &lt;span class=&quot;built_in&quot;&gt;run&lt;/span&gt; &lt;span class=&quot;built_in&quot;&gt;setup&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h2 id=&quot;Release-Note&quot;&gt;&lt;a href=&quot;#Release-Note&quot; class=&quot;headerlink&quot; title=&quot;Release Note&quot;&gt;&lt;/a&gt;Release Note&lt;/h2&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/attentiveness/reading/releases&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Reading Release Note&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;OnLine-Accident&quot;&gt;&lt;a href=&quot;#OnLine-Accident&quot; class=&quot;headerlink&quot; title=&quot;OnLine Accident&quot;&gt;&lt;/a&gt;OnLine Accident&lt;/h2&gt;&lt;p&gt;&lt;a href=&quot;./Reading_OnLine_Accident.md&quot;&gt;Reading Online Accident&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;Welcome&quot;&gt;&lt;a href=&quot;#Welcome&quot; class=&quot;headerlink&quot; title=&quot;Welcome&quot;&gt;&lt;/a&gt;Welcome&lt;/h2&gt;&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;Star&lt;/li&gt;
+&lt;li&gt;Fork&lt;/li&gt;
+&lt;li&gt;PR&lt;/li&gt;
+&lt;li&gt;Issue&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;Thanks-All&quot;&gt;&lt;a href=&quot;#Thanks-All&quot; class=&quot;headerlink&quot; title=&quot;Thanks All!&quot;&gt;&lt;/a&gt;Thanks All!&lt;/h2&gt;&lt;p&gt;&lt;em&gt;@Reading_Team&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id=&quot;Contributors&quot;&gt;&lt;a href=&quot;#Contributors&quot; class=&quot;headerlink&quot; title=&quot;Contributors&quot;&gt;&lt;/a&gt;Contributors&lt;/h2&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/Richard-Cao&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;@Richard-Cao&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;License&quot;&gt;&lt;a href=&quot;#License&quot; class=&quot;headerlink&quot; title=&quot;License&quot;&gt;&lt;/a&gt;License&lt;/h2&gt;&lt;p&gt;Apache License 2.0&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;http://7xr0xq.com1.z0.glb.clouddn.com/Reading_Logo.png&quot; alt=&quot;Reading_Logo&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://gitter.im/attentiveness/rea
+    
+    </summary>
+    
+    
+      <category term="open source" scheme="http://attentiveness.github.io/tags/open-source/"/>
+    
+  </entry>
+  
+</feed>
