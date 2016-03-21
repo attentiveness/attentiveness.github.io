@@ -51,9 +51,9 @@ page_nav:
   - name: 标签
     url: /tag/
     target_blank: false
- # - name: 友链
- #   url: /link/
- #   target_blank: false
+  - name: 友链
+    url: /link/
+    target_blank: false
   - name: 关于
     url: /about/
     target_blank: false
@@ -90,6 +90,12 @@ post:
   header_align: CENTER # LEFT|CENTER
   showToc: true # true|false
   showComments: true
+
+link:
+  - name: RichardCao‘s Blog
+    info: 不积小流，无以成江海
+    url: http://richard-cao.github.io/
+    avatar: http://7xr0xq.com1.z0.glb.clouddn.com/Naruto.jpg
 
 about:
   - type: me
