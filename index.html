@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 
-<html class="light">
 
+  <html class="dark page-home">
 
 
 <head>
@@ -12,7 +12,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
   
-    <meta name="keywords" content="open source,react-native.android,ios" />
+    <meta name="keywords" content="open source,react-native,android,ios,前端" />
   
 
   <meta name="description" content="Open Source Offerings">
@@ -28,14 +28,15 @@
   
 
   
-    <link rel="icon" href="http://7xr0xq.com1.z0.glb.clouddn.com/anyone.jpeg">
+    <link rel="icon" href="http://7xr0xq.com1.z0.glb.clouddn.com/wifi_logo.png">
   
 
-  
-    <link rel="stylesheet" href="/css/forsigner.css">
-  
+  <link href="/css/styles.css?v=eaf5ab1e" rel="stylesheet">
 
-  <link href="/css/styles.css?v=0263c62b" rel="stylesheet">
+
+  
+    <link rel="stylesheet" href="/css/personal-style.css">
+  
 
   
 
@@ -55,18 +56,19 @@
 
 <body>
 
+
   
 
   
   <div class="content-home text-center">
   <a class="avatar" href="/">
-    <img src="http://7xr0xq.com1.z0.glb.clouddn.com/anyone.jpeg" alt="" />
+    <img src="http://7xr0xq.com1.z0.glb.clouddn.com/wifi_logo.png" alt="" />
   </a>
   <h1 class="name" style="font-family: calligraffittiregular">
     Attentiveness
   </h1>
   <div class="slogan">
-    Anyone Group
+    Attentiveness Group
   </div>
 
   <hr>
@@ -102,12 +104,13 @@
 
 
 
-  <div class="modal" id="modal-one" aria-hidden="true">
-  <a href="#close" class="cover" aria-hidden="true"></a>
-  <div class="modal-dialog">
+  <div class="modal" id="modal">
+  <span id="cover" class="cover hide"></span>
+  <div id="modal-dialog" class="modal-dialog hide-dialog">
     <div class="modal-header">
-      <a href="#close" class="btn-close" aria-hidden="true">关闭</a>
+      <span id="close" class="btn-close">关闭</span>
     </div>
+    <hr>
     <div class="modal-body">
       <ul class="list-toolbox">
         
@@ -205,10 +208,8 @@
   }
 
   window.onload = function() {
-    loadScript('/js/fastclick.js', function() {
-      loadScript('/js/app.js', function() {
-        // load success
-      });
+    loadScript('/js/bundle.js?235683', function() {
+      // load success
     });
   }
 </script>
