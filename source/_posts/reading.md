@@ -10,7 +10,7 @@ tags: open source
 
 Reading App Write In React-Native（Studying and Programing）
 
-**Support: Android API 14(4.1)+    IOS(coming soon)**
+**Support: Android 4.1 (API 16)+   IOS(coming soon)**
 
 > No Profit, No Advertisement, Only Feelings
 
@@ -27,16 +27,18 @@ Reading App Write In React-Native（Studying and Programing）
 ## Dependency
 ```
 "dependencies": {
-    "avoscloud-sdk": "^1.0.0-rc7",
-    "immutable": "^3.7.5",
-    "react-native": "^0.21.0",
+    "avoscloud-sdk": "1.0.0-rc5",
+    "immutable": "^3.7.6",
+    "react": "^15.0.2",
+    "react-native": "^0.26.0",
     "react-native-code-push": "^1.7.3-beta",
-    "react-native-device-info": "^0.8.4",
-    "react-native-scrollable-tab-view": "^0.4.0",
-    "react-native-wechat": "^1.3.2",
-    "react-redux": "^4.4.1",
-    "redux": "^3.3.1",
-    "redux-thunk": "^2.0.1"
+    "react-native-device-info": "^0.9.3",
+    "react-native-scrollable-tab-view": "^0.4.3",
+    "react-native-wechat": "^1.4.1",
+    "react-redux": "^4.4.5",
+    "redux": "^3.5.2",
+    "redux-logger": "^2.6.1",
+    "redux-thunk": "^2.1.0"
   }
 ```
 ## How To Build And Run
@@ -56,6 +58,9 @@ react-native start
 ```
 npm run setup
 ```
+
+## Importance
+[Why unknow module "http"](https://github.com/attentiveness/reading/issues/4)
 
 ## Release Note
 [Reading Release Note](https://github.com/attentiveness/reading/releases)
